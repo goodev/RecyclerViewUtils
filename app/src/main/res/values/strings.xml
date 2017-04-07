@@ -2,4 +2,7 @@
     <string name="app_name">RecyclerViewUtils</string>
     <string name="loading">loading</string>
     <string name="unknown">unknown</string>
+    <string name="add_new_item">Add new item</string>
+    <string name="async_list_util">AsyncListUtil</string>
+    <string name="sorted_list">SortedList</string>
 </resources>
