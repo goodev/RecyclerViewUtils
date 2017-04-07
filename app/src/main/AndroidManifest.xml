@@ -13,8 +13,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/async_list_util"
-            >
+            android:label="@string/async_list_util">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -24,6 +23,15 @@
         <activity
             android:name=".SortedListActivity"
             android:label="@string/sorted_list">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".diffutil.DiffUtilActivity"
+            android:label="@string/diff_util"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
